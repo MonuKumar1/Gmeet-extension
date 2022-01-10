@@ -25,9 +25,8 @@ Following are the basic features targeted  around this chrome extension:
    4. Select the `build` folder.
 6. Now you are all set to use the extension.
 
-## Structure
-
-All the extension's code is placed in the `src` folder.
+## Youtube Demo
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/SLKyOw8InHI/0.jpg)](https://www.youtube.com/watch?v=SLKyOw8InHI "G-Meet Chrome Extension")>
 
 
 
