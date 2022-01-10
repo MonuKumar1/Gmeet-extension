@@ -13,7 +13,7 @@ Following are the basic features targeted  around this chrome extension:
 ## Installing and Running
 
 ### Procedures:
-
+Note: I have not putted my cliend_id so for testing one needs to make their own
 1. Check if your [Node.js](https://nodejs.org/) 
 2. Clone this repository.
 3. Run `npm install` to install the dependencies. If you get any authorization issues, try running `sudo npm install`
