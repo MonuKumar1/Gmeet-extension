@@ -1,5 +1,12 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+.env
+.vscode
+.idea
+
+build.crx
+build.pem
+
 # dependencies
 /node_modules
 
@@ -15,7 +22,6 @@
 .env.development.local
 .env.test.local
 .env.production.local
-.history
 
 # secrets
 secrets.*.js
