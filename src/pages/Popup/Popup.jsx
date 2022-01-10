@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import logo from '../../assets/img/logo.svg';
+
 import './Popup.css';
 import icon from '../../assets/img/meet.png';
 
 class Popup extends Component {
   // eslint-disable-next-line no-useless-constructor
   constructor(props) {
+ 
     super(props);
     this.state = {
       id: '',
@@ -59,22 +60,30 @@ class Popup extends Component {
     });
   }
 
+
+
   switchUser = () => {
+    
     this.setState({
       id: '',
       email: '',
       isLoading: true,
     });
-
-    chrome.storage.sync.set({ meetID: '' }, function () {
+      chrome.storage.sync.set({ meetID: '' }, function () {
       console.log('Value is set to null');
     });
     chrome.storage.sync.set({ email: '' }, function () {
       console.log('Value is set to null');
     });
+    // chrome.storage.sync.set({ id: '' }, function () {
+    //   console.log('Value is set to null');
+    // });
 
     chrome.runtime.sendMessage({ message: 'switch_user' });
   };
+
+
+
 
   createMeet = () => {
     this.setState({
@@ -122,9 +131,9 @@ class Popup extends Component {
               </button>
             </div>
             <div className="shortcut">
-              {/* <p className="clipboard-para">
+              <p className="clipboard-para">
                 Click above or press Alt+N to create a new meeting
-              </p> */}
+              </p>
             </div>
           </div>
           {this.state.id && (

@@ -14,7 +14,7 @@ Following are the basic features targeted  around this chrome extension:
 
 ### Procedures:
 
-1. Check if your [Node.js](https://nodejs.org/) version is >= **10.13**.
+1. Check if your [Node.js](https://nodejs.org/) 
 2. Clone this repository.
 3. Run `npm install` to install the dependencies. If you get any authorization issues, try running `sudo npm install`
 4. Run `npm start` or `sudo npm start`

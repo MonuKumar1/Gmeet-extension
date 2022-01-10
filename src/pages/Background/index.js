@@ -85,7 +85,8 @@ function createMeeting() {
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.message === 'get_event') {
     createMeeting();
-  } else if (request.message === 'switch_user') {
+  } 
+  else if (request.message === 'switch_user') {
     chrome.identity.getAuthToken({ interactive: true }, function (token) {
       console.log(token);
       if (!chrome.runtime.lastError) {

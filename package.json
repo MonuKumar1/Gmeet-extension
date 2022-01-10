@@ -1,7 +1,7 @@
 {
   "name": "google-meet-ext",
   "version": "2.7.0",
-  "description": "A chrome extension for google meet with React 16 and Webpack 4",
+  "description": "A chrome extension for google meet with React",
   "license": "MIT",
   "repository": {
     "type": "git",
