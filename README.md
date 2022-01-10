@@ -26,7 +26,7 @@ Following are the basic features targeted  around this chrome extension:
 6. Now you are all set to use the extension.
 
 ## Youtube Demo
-[![IMAGE ALT TEXT](https://github.com/MonuKumar1/Gmeet-extension/blob/master/src/assets/img/Screenshot%20(86).pngg)](https://www.youtube.com/watch?v=SLKyOw8InHI "G-Meet Chrome Extension")>
+[![IMAGE ALT TEXT](https://github.com/MonuKumar1/Gmeet-extension/blob/master/src/assets/img/Screenshot%20(86).png)](https://www.youtube.com/watch?v=SLKyOw8InHI "G-Meet Chrome Extension")>
 
 
 
